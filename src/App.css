@@ -1,0 +1,213 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Raleway:wght@300&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Shade&family=Concert+One&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin&family=Carter+One&display=swap');
+*{
+  font-family: 'Blinker', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.bgimg{
+  
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("src/images/home.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.image{
+
+  width: 500px;
+}
+
+.details{
+
+   margin-top: 4rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Bungee Shade', cursive;
+
+  color: black;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+
+.navbarh{
+
+  background-color: rgb(243, 228, 210);
+}
+
+.navul{
+
+  margin-left: 2rem;
+}
+
+.nav-item a {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+    
+}
+
+
+.nav-item a:hover  {
+
+
+   border-bottom: 2px solid black;
+   
+  
+}
+
+.navtitle{
+ 
+  font-weight: 900;
+
+}
+
+.first{
+
+  text-transform: uppercase;
+  font-family: 'Bungee Shade', cursive;
+  color:rgb(0, 0, 0);  
+  overflow-y: hidden;
+  
+}
+
+
+.sidehead{
+  margin-top: 2rem;
+  text-align: center;
+
+
+}
+.second{
+   
+  font-size: 2rem;
+  text-transform: capitalize;
+color: rgb(8, 8, 8);
+font-family: 'Carter One', cursive;
+
+}
+
+.btnn{
+
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 900;
+  color: black;
+  background:white;
+  border: 2px solid black;
+  transition: all .25s ease;
+
+}
+
+.btnn:hover{
+     
+     color: white;
+     background-color: black;
+     border: 2px solid white;
+}
+.himg{
+ 
+   width: 250px;
+
+}
+
+.himg1{
+
+  margin-top: 2rem;
+}
+    .img{
+
+        width: 100px;
+    }
+   
+  
+
+    .cardbody{
+    
+      padding: 10px;
+      margin-bottom: .5rem;
+      margin-top: 1rem;
+      border: 2px solid rgb(233, 230, 230);
+      text-align: center;
+    }
+    
+    .cardbody:hover{
+    
+        border: 2px solid rgb(182, 182, 182);
+    
+    
+    }
+    
+    .link{
+    
+       justify-content: center;
+       color: rgb(249, 160, 8);
+    
+    }
+    
+    .search{
+
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      font-family: 'Carter One', cursive;
+
+      
+    }
+    
+    .buttonin{
+
+      font-family: 'Carter One', cursive;
+      margin-left: 1rem;
+      border-radius: 10px;
+      padding: 10px;
+
+    }
+    .button{
+
+      font-family: 'Carter One', cursive;
+      margin-left: 1rem;
+      
+
+    }
+    .box{
+    
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        
+      
+    }
+
+    .footer{
+      
+     background-color: black;
+     width: 100%;
+    min-height: 200px;
+    color: white;
+    }
+
+   
+
+    .foothead{
+
+      font-family: 'Carter One', cursive;
+      margin-top: 2rem;
+    }
+
+    .foothead span{
+
+      font-family: 'Carter One', cursive;
+      color: red;
+
+    }
